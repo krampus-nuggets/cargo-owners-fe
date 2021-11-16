@@ -1,7 +1,7 @@
 import React from "react";
 import TransporterGrid from "./TransporterGrid";
 import AveragesGrid from "./AveragesGrid";
-import { transportArray, averageArray } from "../global/modelData";
+import { transportArray } from "../global/modelData";
 
 const RatesContainer = () => {
     const [showGrid, setShowGrid] = React.useState(true);
